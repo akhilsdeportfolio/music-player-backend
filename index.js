@@ -1,10 +1,11 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const userController = require('./controllers/user.controller');
 const appController = require("./controllers/frontend.controller");
 const creatorController = require('./controllers/album.controller');
 const songController = require('./controllers/song.controller');
-
+app.use(cors());
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use("/auth",userController);
