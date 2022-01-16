@@ -1,0 +1,9 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    192.168.0.100:49452    20.198.162.76:https    ESTABLISHED
+  TCP    192.168.0.100:50691    20.198.162.76:https    ESTABLISHED
+  TCP    192.168.0.100:53251    se-in-f188:5228        ESTABLISHED
+  TCP    192.168.0.100:53259    ec2-44-199-56-83:https  ESTABLISHED
+  TCP    192.168.0.100:53317    63:https               ESTABLISHED
